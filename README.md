@@ -56,19 +56,4 @@ When adding or updating images:
 ## Team management
 
 To add a new team member:
-
-1. Add a new entry for the person in `people.json`, including all required fields.
-2. Add or update an image in the images directory, if applicable, and reference it from
-   the person’s record.
-3. If the team structure is configured separately (for example, in `config.yaml`),
-   ensure the new person is assigned to the correct team or group.
-
-To remove or update a team member:
-
-- Update or delete the corresponding record in `people.json`.
-- Clean up any images no longer in use.
-- Verify that no configuration still references the removed person.
-
-## Demo note
-
 irene made changes for pull request demo
